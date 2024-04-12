@@ -2,7 +2,13 @@
 
 ## Description
 
-LaraVision Portfolio is a portfolio application built using Laravel and Three.js. This project was inspired by a similar web app, and it aims to showcase creative works in an interactive 3D environment.
+LaraVision Portfolio is an interactive 3D portfolio application built using Laravel and Three.js. This project leverages pre-made 3D model designs stored in GLTF format within the `public` folder. GLTF is a compressed version of traditional 3D model formats like FBX, offering efficient loading and handling of complex models.
+
+The Three.js script, responsible for all 3D model interactions, is located in `resources/js/portfolio.js`. When you run `npm run dev`, Vite provides hot module replacement (HMR), which automatically updates the portfolio page as you make changes to `portfolio.js`—no need to reload or restart your service.
+
+The application's structure follows the MVC pattern. Navigation between pages is handled by Laravel's routing, with `home.blade.php` redirecting to `portfolio.blade.php`. There are two main controllers: `HomeController` and `PortfolioController`, which manage the respective views.
+
+If you are new to Laravel and need to modify or add new pages, it is recommended to check the Laravel documentation to understand how to work with views, routes, and controllers effectively.
 
 ## Prerequisites
 
