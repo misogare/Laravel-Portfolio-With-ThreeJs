@@ -1,0 +1,11 @@
+Model Information:
+* title:	Wooden Sitting Chair
+* source:	https://sketchfab.com/3d-models/wooden-sitting-chair-51aca9d2794b4462973260bb8c5f5ad0
+* author:	Sapizon (https://sketchfab.com/sapizon)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Wooden Sitting Chair" (https://sketchfab.com/3d-models/wooden-sitting-chair-51aca9d2794b4462973260bb8c5f5ad0) by Sapizon (https://sketchfab.com/sapizon) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
