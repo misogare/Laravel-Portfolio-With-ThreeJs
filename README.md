@@ -12,7 +12,7 @@ Before you begin, ensure you have met the following requirements:
 - Composer
 
 ## Note 
-click on the icon in the windows 7 screen to be able to see the portfolio website which is fetched to mine [MESVAK.SOFTWARE](MESVAK.SOFTWARE)
+click on the icon in the windows 7 screen to be able to see the portfolio website which is fetched to mine [MESVAK.SOFTWARE](https://mesvak.software/)
 ![image](https://github.com/misogare/Laravel-Portfolio-With-ThreeJs/assets/130363781/5b4edac9-6159-429b-9b7b-7314eaa6d5b4)
 
 ## Installation
