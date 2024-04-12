@@ -23,43 +23,43 @@ Follow these steps to get your development environment running:
    ```bash
    git clone https://github.com/yourusername/laravision-portfolio.git
    cd laravision-portfolio
-   ~~~
+    ```
 
 2. **Install PHP dependencies:**
   ```bash
    composer install
-   ~~~
+  ```
 
 3. **Install JavaScript dependencies:**
   ```bash
    npm install
-   ~~~
+   ```
 
 4. **Compile assets with Vite:**
    ```bash
    npm run dev  # For development
    npm run build  # For production
-   ~~~
+   ```
 
 5. **Copy the example environment file and make the required configuration changes in the .env file:**
   ```bash
    cp .env.example .env
-   ~~~
+  ```
 
 6. **Generate a new application key:**
   ```bash
    php artisan key:generate
-   ~~~
+   ```
 
 7. **Run the database migrations (Set the database connection in .env before migrating)**
  ```bash
    php artisan migrate
-   ~~~
+ ```
 
 8. **Start the local development server:**
   ```bash
    php artisan serve
-   ~~~
+  ```
 
 ## Usage
 
@@ -86,6 +86,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name – [@your_twitter](https://twitter.com/your_twitter) - email@example.com
+Your Name – [@mesvak](https://www.instagram.com/mesvak/) - [mesvak](https://t.me/mesvak) - MESVAKC@GMAIL.COM
 
-Project Link: [https://github.com/yourusername/laravision-portfolio]([https://github.com/yourusername/laravision-portfolio](https://github.com/misogare/Laravel-Portfolio-With-ThreeJs))
+Project Link: [lARAVISION](https://github.com/misogare/Laravel-Portfolio-With-ThreeJs)
