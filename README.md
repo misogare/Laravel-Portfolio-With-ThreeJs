@@ -1,66 +1,91 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# LaraVision Portfolio
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Description
 
-## About Laravel
+LaraVision Portfolio is a portfolio application built using Laravel and Three.js. This project was inspired by a similar web app, and it aims to showcase creative works in an interactive 3D environment.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Prerequisites
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Before you begin, ensure you have met the following requirements:
+- PHP >= 7.3
+- Node.js >= 12.x
+- Composer
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Note 
+click on the icon in the windows 7 screen to be able to see the portfolio website which is fetched to mine [MESVAK.SOFTWARE](MESVAK.SOFTWARE)
+![image](https://github.com/misogare/Laravel-Portfolio-With-ThreeJs/assets/130363781/5b4edac9-6159-429b-9b7b-7314eaa6d5b4)
 
-## Learning Laravel
+## Installation
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Follow these steps to get your development environment running:
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/laravision-portfolio.git
+   cd laravision-portfolio
+   ~~~
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+2. **Install PHP dependencies:**
+  ```bash
+   composer install
+   ~~~
 
-## Laravel Sponsors
+3. **Install JavaScript dependencies:**
+  ```bash
+   npm install
+   ~~~
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+4. **Compile assets with Vite:**
+   ```bash
+   npm run dev  # For development
+   npm run build  # For production
+   ~~~
 
-### Premium Partners
+5. **Copy the example environment file and make the required configuration changes in the .env file:**
+  ```bash
+   cp .env.example .env
+   ~~~
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+6. **Generate a new application key:**
+  ```bash
+   php artisan key:generate
+   ~~~
 
+7. **Run the database migrations (Set the database connection in .env before migrating)**
+ ```bash
+   php artisan migrate
+   ~~~
+
+8. **Start the local development server:**
+  ```bash
+   php artisan serve
+   ~~~
+
+## Usage
+
+After installation, you can open your web browser and visit `http://localhost:8000` to view the application.
+
+## Credits
+
+This project makes use of several open-source packages and resources:
+- Laravel (https://laravel.com)
+- Three.js (https://threejs.org)
+- Vite (https://vitejs.dev)
+- Inspiration from [Henry Hefferman] (https://henryheffernan.com/)
+- The modules [shedmon] (https://sketchfab.com/shedmon)
+- The modules [Anthony Yanez ] (https://sketchfab.com/paulyanez)
+- The modules [1056878 )] (https://sketchfab.com/1056878
+- The modules [edArieL]  (https://sketchfab.com/edArieL)
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+Your Name – [@your_twitter](https://twitter.com/your_twitter) - email@example.com
+
+Project Link: [https://github.com/yourusername/laravision-portfolio]([https://github.com/yourusername/laravision-portfolio](https://github.com/misogare/Laravel-Portfolio-With-ThreeJs))
