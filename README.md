@@ -86,6 +86,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name – [@mesvak](https://www.instagram.com/mesvak/) - [mesvak](https://t.me/mesvak) - MESVAKC@GMAIL.COM
+MESVAK – [@mesvak](https://www.instagram.com/mesvak/) - [mesvak](https://t.me/mesvak) - MESVAKC@GMAIL.COM
 
 Project Link: [lARAVISION](https://github.com/misogare/Laravel-Portfolio-With-ThreeJs)
